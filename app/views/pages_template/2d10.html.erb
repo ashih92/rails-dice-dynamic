@@ -1,0 +1,11 @@
+<h1>2d10</h1>
+<h2>They played <%= @rolls %>!</h2>
+<h2>We <%= @rolls %>!</h2>
+
+<ul>
+  <% @rolls.each do |a_roll| %>
+    <li>
+      <%= a_roll %>
+    </li>
+  <% end %>
+</ul>
